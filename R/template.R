@@ -29,7 +29,7 @@
 #'
 #' @export
 subugoe_template <- function() {
-  path_root <- system.file("pkgdown", package = "metar")
+  path_root <- system.file("pkgdown", package = "subugoetheme")
   list(
     assets = list(
       css = fs::path(path_root, "assets", "ugoe_bootswatch.css"),
