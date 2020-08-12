@@ -28,7 +28,7 @@
 #' @family corporate identity
 #'
 #' @export
-subugoe_template <- function() {
+pkgdown_template <- function() {
   path_root <- system.file("pkgdown", package = "subugoetheme")
   list(
     assets = list(
