@@ -19,16 +19,20 @@ To use this template for website, list {subugoetheme} in your \code{DESCRIPTION}
 
 As a result, your website will:
 \itemize{
-\item Use the \href{https://bootswatch.com/3/cosmo/}{bootswatch \code{cosmo} bootstrap theme}.
-\item Set the navbar to \code{type: inverse}.
+\item Use the \href{https://bootswatch.com/3/cosmo/}{\strong{bootswatch \code{cosmo} bootstrap theme}} with an inverse navbar.
+The corresponding settings in you \verb{_pkgdown.yml} (\code{template: params: bootswatch}, \code{navbar: type: inverse}) are ignored.
 \item Display in a University of Göttingen \strong{color scheme}.
 This is determined by the \code{ugoe_bootswatch.css}, which is compiled from \code{ugoe_colors.less}.
 The colors were added and downloaded via https://www.bootstrap-live-customizer.com.
-\item Include the SUB wordmark in your website as \code{sub_wordmark.jpg}.
-\item Add a custom footer including the wordmar.
+\item Include the \strong{SUB wordmark} in your website as \code{sub_wordmark.jpg}.
+The wordmark is included in the custom footer.
+\item Expose the SUB twitter account \href{https://twitter.com/subugoe}{\verb{@subugoe}} as \strong{opengraph \href{https://pkgdown.r-lib.org/articles/metadata.html}{metadata}} (\code{twitter: site}).
 }
 
+In a further difference to "vanilla" pkgdown sites, Google Analytics is disabled for all subugoetheme sites.
+
 To pull in changes in this package to your website, install the current version of {subugoetheme} and re-run \code{pkgdown::build_site()} locally or in your CI.
+
 To pull in upstream changes from {pkgdown} into \emph{this} package, it may be ocassionally necessary to update the files in \code{inst/pkgdown/templates} which have been minimally adapted from their original counterparts in {pkgdown}.
 
 To learn more about pkgdown templates, read \href{https://pkgdown.r-lib.org/reference/build_site.html}{here} or consider \href{https://github.com/ropensci/rotemplate}{these} \href{https://tidytemplate.tidyverse.org}{examples}.
