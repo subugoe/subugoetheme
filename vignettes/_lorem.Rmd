@@ -1,37 +1,50 @@
-## Test Content
+# Test Content
 
-### An `.unlisted` Section {.unlisted}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-<h3 data-toc-skip> A `data-toc-skip`ped Section</h3>
+<h2 data-toc-skip> A `data-toc-skip`ped Section</h2>
 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### More Skipping {data-toc-skip=true}
-
-### A Section with a Bootstrap 3 Class {.alert .alert-success}
+## A Section with a Bootstrap Class {.alert .alert-success}
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+## Another Section
+
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Some Code
+<div class="panel panel-primary">
+<div class="panel-heading">Panel heading</div>
+<div class="panel-body">
+Happy *markdown*
+</div>
+<div class="panel-footer">Panel footer</div>
+</div>
 
-This should be wrapped.
+## A Leading Paragraph
+
+<p class="lead">
+Fermentum iaculis eu non diam phasellus vestibulum lorem
+</p>
+
+## Some Code
+
+Would be nice to be able to collapse this.
 
 ```{r}
 1+1
 ```
 
-### A Really Long Section
+## A Really Long Section
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum iaculis eu non diam phasellus vestibulum lorem. Sit amet purus gravida quis blandit turpis cursus in. Et molestie ac feugiat sed lectus vestibulum mattis. Rhoncus urna neque viverra justo. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Ultrices sagittis orci a scelerisque purus semper. Sit amet cursus sit amet dictum sit amet justo donec. Vel eros donec ac odio tempor orci dapibus ultrices.
+Sit amet purus gravida quis blandit turpis cursus in. Et molestie ac feugiat sed lectus vestibulum mattis. Rhoncus urna neque viverra justo. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Ultrices sagittis orci a scelerisque purus semper. Sit amet cursus sit amet dictum sit amet justo donec. Vel eros donec ac odio tempor orci dapibus ultrices.
 
 Dui nunc mattis enim ut tellus. Id volutpat lacus laoreet non curabitur gravida arcu ac. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Egestas erat imperdiet sed euismod nisi. Luctus accumsan tortor posuere ac ut. Quisque egestas diam in arcu cursus euismod. At tellus at urna condimentum. Pulvinar elementum integer enim neque volutpat. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Id leo in vitae turpis massa sed elementum.
 
 Sit amet nulla facilisi morbi tempus. Turpis massa sed elementum tempus egestas sed sed risus. Quam nulla porttitor massa id neque. Et malesuada fames ac turpis egestas integer eget. Quis ipsum suspendisse ultrices gravida. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. Consequat interdum varius sit amet mattis vulputate enim. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Diam sollicitudin tempor id eu nisl nunc mi ipsum. In tellus integer feugiat scelerisque varius morbi enim nunc. Phasellus vestibulum lorem sed risus ultricies. Laoreet id donec ultrices tincidunt arcu. Nullam ac tortor vitae purus faucibus ornare suspendisse. Amet venenatis urna cursus eget nunc scelerisque viverra. Elementum tempus egestas sed sed risus pretium quam vulputate. Porttitor eget dolor morbi non arcu risus quis varius. Nec ullamcorper sit amet risus nullam eget felis eget. Augue ut lectus arcu bibendum at varius vel pharetra vel. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Tincidunt praesent semper feugiat nibh sed pulvinar.
 
 Metus vulputate eu scelerisque felis imperdiet proin fermentum. Turpis tincidunt id aliquet risus. Risus pretium quam vulputate dignissim. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Sed elementum tempus egestas sed sed. Tortor vitae purus faucibus ornare. Cursus turpis massa tincidunt dui ut. Scelerisque varius morbi enim nunc faucibus a. Pellentesque adipiscing commodo elit at imperdiet dui. Elementum sagittis vitae et leo. Amet consectetur adipiscing elit duis tristique sollicitudin. Ut venenatis tellus in metus vulputate. Nulla malesuada pellentesque elit eget gravida cum. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Ut eu sem integer vitae justo eget magna fermentum iaculis.
+
+### Subheading in Long Section
 
 Leo in vitae turpis massa. Pretium nibh ipsum consequat nisl vel pretium lectus. Ac tincidunt vitae semper quis lectus nulla at volutpat. Egestas congue quisque egestas diam in arcu. Vitae nunc sed velit dignissim sodales ut. Massa sed elementum tempus egestas sed sed. Feugiat in fermentum posuere urna nec tincidunt praesent. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Odio euismod lacinia at quis risus sed vulputate odio ut. Lorem ipsum dolor sit amet. Rutrum quisque non tellus orci ac. Scelerisque in dictum non consectetur. Sit amet commodo nulla facilisi nullam vehicula. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Dolor purus non enim praesent elementum facilisis leo vel. Volutpat diam ut venenatis tellus in. Vitae auctor eu augue ut lectus. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer.
 
