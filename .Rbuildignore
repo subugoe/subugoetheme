@@ -2,9 +2,9 @@
 ^\.github
 ^docs$
 ^pkgdown$
-^vignettes$
 Dockerfile
 ^\.Rproj\.user$
 ^LICENSE\.md$
 [.]code-workspace$
 ^codecov\.yml$
+^vignettes/

@@ -1,0 +1,9 @@
+---
+title: "html_document"
+subtitle: "should not be listed"
+---
+
+This just tests default pkgdown behavior for comparison.
+
+```{r, child="_lorem.Rmd"}
+```
