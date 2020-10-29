@@ -10,3 +10,5 @@ template:
     docsearch:
       api_key: fff00ea40cd3cf5552ca21044cb33c52
       index_name: subugoe_subugoetheme
+navbar:
+  type: inverse
