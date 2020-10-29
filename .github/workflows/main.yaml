@@ -8,7 +8,9 @@ jobs:
         shell: Rscript {0}
     container:
       # this needs to be the same as in Dockerfile
-      image: subugoe/muggle-buildtime-onbuild:a852008fab46173103ad633899994ee7296e7b89
+      image: subugoe/muggle-buildtime-onbuild:ff0227f7ad78f34df1eeef59dd95c2408d7f893f
+    env:
+      MUGGLE_PKG_NAME: ${{ github.event.repository.name }}
     steps:
       - uses: actions/checkout@v2
       - name: Cache R Packages
@@ -25,13 +27,13 @@ jobs:
           R_LIBS_SITE: $R_LIBS_RUNTIME_GH
         run: remotes::install_deps(dependencies = TRUE)
       - name: Check
-        run: muggle::rcmdcheck2()
+        run: devtools::check()
       - name: Build Package Website
         run: pkgdown::build_site(override = list(new_process = FALSE))
       - name: Build Buildtime Image
         uses: docker/build-push-action@v1
         with:
-          repository: ${{ github.repository }}/subugoetheme-buildtime
+          repository: ${{ github.repository }}/${{ env.MUGGLE_PKG_NAME }}-buildtime
           target: buildtime
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
