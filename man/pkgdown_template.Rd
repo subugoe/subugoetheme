@@ -12,10 +12,16 @@ named list of paths to assets and templates for web design
 \description{
 State- and University Library of Göttingen \href{http://pkgdown.r-lib.org}{pkgdown} template
 }
-\details{
-To use this template for website, list {subugoetheme} in your \code{DESCRIPTION} and add to your \verb{_pkgdown.yml}:\if{html}{\out{<div class="yaml">}}\preformatted{template:
+\section{Usage}{
+
+To use this template for your pkgdown website, list {subugoetheme} in your \code{DESCRIPTION} and add to your \verb{_pkgdown.yml}:\if{html}{\out{<div class="yaml">}}\preformatted{template:
   package: subugoetheme
 }\if{html}{\out{</div>}}
+
+To update your website, install the current version of {subugoetheme} and re-run \code{pkgdown::build_site()} locally or in your CI.
+}
+
+\section{Features}{
 
 As a result, your website will:
 \itemize{
@@ -29,12 +35,27 @@ The wordmark is included in the custom footer.
 \item Expose the SUB twitter account \href{https://twitter.com/subugoe}{\verb{@subugoe}} as \strong{opengraph \href{https://pkgdown.r-lib.org/articles/metadata.html}{metadata}} (\code{twitter: site}).
 }
 
-In a further difference to "vanilla" pkgdown sites, Google Analytics is disabled for all subugoetheme sites.
+For additional features, see \href{http://subugoe.github.io/muggle/}{muggle}.
+}
 
-To pull in changes in this package to your website, install the current version of {subugoetheme} and re-run \code{pkgdown::build_site()} locally or in your CI.
+\section{Analytics}{
 
-To pull in upstream changes from {pkgdown} into \emph{this} package, it may be ocassionally necessary to update the files in \code{inst/pkgdown/templates} which have been minimally adapted from their original counterparts in {pkgdown}.
+Instead of Google Analytics, this template includes a tracking code for \code{matomo.gwdg.de} on every website.
+Matomo is an open-source alternative to Google Analytics, here hosted by the \href{http://matomo.gwdg.de}{GWDG}.
+
+The following SUB employees have access to the analytics:
+\itemize{
+\item \href{https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/najko-jahn/}{Najko Jahn}
+\item \href{https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/maximilian-held/}{Maximilian Held}
+\item \code{scholcomm-analytics@sub.uni-goettingen.de}, a function account for \href{https://www.sub.uni-goettingen.de/kontakt/abteilungen-a-z/abteilungs-und-gruppendetails/abteilunggruppe/wissen-als-gemeingut/}{WAG} data products.
+}
+}
+
+\section{Maintenance}{
+
+To pull in upstream changes from {pkgdown} into \emph{this} package, it may be ocassionally neccessary to update the files in \code{inst/pkgdown/templates} which have been minimally adapted from their original counterparts in {pkgdown}.
 
 To learn more about pkgdown templates, read \href{https://pkgdown.r-lib.org/reference/build_site.html}{here} or consider \href{https://github.com/ropensci/rotemplate}{these} \href{https://tidytemplate.tidyverse.org}{examples}.
 }
+
 \concept{corporate identity}
