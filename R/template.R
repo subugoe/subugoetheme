@@ -21,12 +21,16 @@
 #' - Include the **SUB wordmark** in your website as `sub_wordmark.jpg`.
 #'    The wordmark is included in the custom footer.
 #' - Expose the SUB twitter account [`@subugoe`](https://twitter.com/subugoe) as **opengraph [metadata](https://pkgdown.r-lib.org/articles/metadata.html)** (`twitter: site`).
+#' - Link to the SUB legal boilerplate.
 #' 
 #' For additional features, see [muggle](http://subugoe.github.io/muggle/).
 #'
 #' @section Analytics:
 #' Instead of Google Analytics, this template includes a tracking code for `matomo.gwdg.de` on every website.
 #' Matomo is an open-source alternative to Google Analytics, here hosted by the [GWDG](http://matomo.gwdg.de).
+#' 
+#' To opt out, users are directed to the matomo opt-out at sub.uni-goettingen.de.
+#' The gwdg matomo instance respects the opt-out set on sub.uni-goettingen.de.
 #' 
 #' The following SUB employees have access to the analytics: 
 #' - [Najko Jahn](https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/najko-jahn/)

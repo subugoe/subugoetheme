@@ -33,6 +33,7 @@ The colors were added and downloaded via https://www.bootstrap-live-customizer.c
 \item Include the \strong{SUB wordmark} in your website as \code{sub_wordmark.jpg}.
 The wordmark is included in the custom footer.
 \item Expose the SUB twitter account \href{https://twitter.com/subugoe}{\verb{@subugoe}} as \strong{opengraph \href{https://pkgdown.r-lib.org/articles/metadata.html}{metadata}} (\code{twitter: site}).
+\item Link to the SUB legal boilerplate.
 }
 
 For additional features, see \href{http://subugoe.github.io/muggle/}{muggle}.
@@ -42,6 +43,9 @@ For additional features, see \href{http://subugoe.github.io/muggle/}{muggle}.
 
 Instead of Google Analytics, this template includes a tracking code for \code{matomo.gwdg.de} on every website.
 Matomo is an open-source alternative to Google Analytics, here hosted by the \href{http://matomo.gwdg.de}{GWDG}.
+
+To opt out, users are directed to the matomo opt-out at sub.uni-goettingen.de.
+The gwdg matomo instance respects the opt-out set on sub.uni-goettingen.de.
 
 The following SUB employees have access to the analytics:
 \itemize{
