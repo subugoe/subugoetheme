@@ -1,0 +1,8 @@
+---
+title: "html_document2"
+pkgdown:
+  as_is: true
+---
+
+```{r, child=muggle::get_muggle_file("vignettes/formatting.Rmd")}
+```

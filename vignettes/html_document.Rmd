@@ -1,0 +1,6 @@
+---
+title: "html_document"
+---
+
+```{r, child=muggle::get_muggle_file("vignettes/formatting.Rmd")}
+```
