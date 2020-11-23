@@ -12,16 +12,14 @@ named list of paths to assets and templates for web design
 \description{
 State- and University Library of Göttingen \href{http://pkgdown.r-lib.org}{pkgdown} template
 }
-\section{Usage}{
+\section{Pkgdown Usage}{
 
-To use this template for your pkgdown website, list {subugoetheme} in your \code{DESCRIPTION} and add to your \verb{_pkgdown.yml}:\if{html}{\out{<div class="yaml">}}\preformatted{template:
+To use this template for your pkgdown website, list subugoetheme in your \code{DESCRIPTION} and add to your \verb{_pkgdown.yml}:\if{html}{\out{<div class="yaml">}}\preformatted{template:
   package: subugoetheme
 }\if{html}{\out{</div>}}
 
 To update your website, install the current version of {subugoetheme} and re-run \code{pkgdown::build_site()} locally or in your CI.
-}
-
-\section{Features}{
+\subsection{Features:}{
 
 As a result, your website will:
 \itemize{
@@ -39,7 +37,7 @@ The wordmark is included in the custom footer.
 For additional features, see \href{http://subugoe.github.io/muggle/}{muggle}.
 }
 
-\section{Analytics}{
+\subsection{Analytics:}{
 
 Instead of Google Analytics, this template includes a tracking code for \code{matomo.gwdg.de} on every website.
 Matomo is an open-source alternative to Google Analytics, here hosted by the \href{http://matomo.gwdg.de}{GWDG}.
@@ -55,11 +53,24 @@ The following SUB employees have access to the analytics:
 }
 }
 
-\section{Maintenance}{
+\subsection{Maintenance:}{
 
 To pull in upstream changes from {pkgdown} into \emph{this} package, it may be ocassionally neccessary to update the files in \code{inst/pkgdown/templates} which have been minimally adapted from their original counterparts in {pkgdown}.
 
 To learn more about pkgdown templates, read \href{https://pkgdown.r-lib.org/reference/build_site.html}{here} or consider \href{https://github.com/ropensci/rotemplate}{these} \href{https://tidytemplate.tidyverse.org}{examples}.
+}
+}
+
+\section{Other Usage}{
+
+The CSS targets bootstrap 3.x and can thus be used on other bootstrap 3.x websites.
+\subsection{flexdashboard}{
+
+To use the CSS for \href{https://rmarkdown.rstudio.com/flexdashboard/}{flexdasboard}, list subugoetheme in your \code{DESCRIPTION} and add to your yaml frontmatter:\preformatted{output:
+ flexdashboard::flex_dashboard:
+   css: !expr subugoetheme::pkgdown_template()$assets$css
+}
+}
 }
 
 \concept{corporate identity}

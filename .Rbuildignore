@@ -4,4 +4,4 @@
 ^pkgdown$
 Dockerfile
 ^docs$
-^vignettes/articles$
+^vignettes/

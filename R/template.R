@@ -1,7 +1,7 @@
 #' State- and University Library of Göttingen [pkgdown](http://pkgdown.r-lib.org) template
 #'
-#' @section Usage:
-#' To use this template for your pkgdown website, list {subugoetheme} in your `DESCRIPTION` and add to your `_pkgdown.yml`:
+#' @section Pkgdown Usage:
+#' To use this template for your pkgdown website, list subugoetheme in your `DESCRIPTION` and add to your `_pkgdown.yml`:
 #'
 #' ```yaml
 #' template:
@@ -10,7 +10,7 @@
 #' 
 #' To update your website, install the current version of {subugoetheme} and re-run `pkgdown::build_site()` locally or in your CI.
 #'
-#' @section Features:
+#' ## Features:
 #' As a result, your website will:
 #'
 #' - Use the [**bootswatch `cosmo` bootstrap theme**](https://bootswatch.com/3/cosmo/) with an inverse navbar.
@@ -25,7 +25,7 @@
 #' 
 #' For additional features, see [muggle](http://subugoe.github.io/muggle/).
 #'
-#' @section Analytics:
+#' ## Analytics:
 #' Instead of Google Analytics, this template includes a tracking code for `matomo.gwdg.de` on every website.
 #' Matomo is an open-source alternative to Google Analytics, here hosted by the [GWDG](http://matomo.gwdg.de).
 #' 
@@ -37,10 +37,23 @@
 #' - [Maximilian Held](https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/maximilian-held/)
 #' - `scholcomm-analytics@sub.uni-goettingen.de`, a function account for [WAG](https://www.sub.uni-goettingen.de/kontakt/abteilungen-a-z/abteilungs-und-gruppendetails/abteilunggruppe/wissen-als-gemeingut/) data products.
 #'
-#' @section Maintenance:
+#' ## Maintenance:
 #' To pull in upstream changes from {pkgdown} into *this* package, it may be ocassionally neccessary to update the files in `inst/pkgdown/templates` which have been minimally adapted from their original counterparts in {pkgdown}.
 #'
 #' To learn more about pkgdown templates, read [here](https://pkgdown.r-lib.org/reference/build_site.html) or consider [these](https://github.com/ropensci/rotemplate) [examples](https://tidytemplate.tidyverse.org).
+#' 
+#' @section Other Usage:
+#' The CSS targets bootstrap 3.x and can thus be used on other bootstrap 3.x websites.
+#' 
+#' ## flexdashboard
+#' 
+#' To use the CSS for [flexdasboard](https://rmarkdown.rstudio.com/flexdashboard/), list subugoetheme in your `DESCRIPTION` and add to your yaml frontmatter:
+#' 
+#' ```
+#' output:
+#'  flexdashboard::flex_dashboard:
+#'    css: !expr subugoetheme::pkgdown_template()$assets$css
+#' ```
 #'
 #' @return named list of paths to assets and templates for web design
 #'
