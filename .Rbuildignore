@@ -1,10 +1,6 @@
-^subugoetheme\.Rproj$
+^.*\.Rproj$
 ^\.github
-^docs$
+^LICENSE\.md$
 ^pkgdown$
 Dockerfile
-^\.Rproj\.user$
-^LICENSE\.md$
-[.]code-workspace$
-^codecov\.yml$
-^vignettes/
+^docs$
