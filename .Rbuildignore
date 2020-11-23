@@ -4,4 +4,3 @@
 ^pkgdown$
 Dockerfile
 ^docs$
-^vignettes/
