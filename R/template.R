@@ -35,7 +35,6 @@
 #' The following SUB employees have access to the analytics: 
 #' - [Najko Jahn](https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/najko-jahn/)
 #' - [Maximilian Held](https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/maximilian-held/)
-#' - `scholcomm-analytics@sub.uni-goettingen.de`, a function account for [WAG](https://www.sub.uni-goettingen.de/kontakt/abteilungen-a-z/abteilungs-und-gruppendetails/abteilunggruppe/wissen-als-gemeingut/) data products.
 #'
 #' ## Maintenance:
 #' To pull in upstream changes from {pkgdown} into *this* package, it may be ocassionally neccessary to update the files in `inst/pkgdown/templates` which have been minimally adapted from their original counterparts in {pkgdown}.

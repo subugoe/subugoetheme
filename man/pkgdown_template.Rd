@@ -49,7 +49,6 @@ The following SUB employees have access to the analytics:
 \itemize{
 \item \href{https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/najko-jahn/}{Najko Jahn}
 \item \href{https://www.sub.uni-goettingen.de/kontakt/personen-a-z/personendetails/person/maximilian-held/}{Maximilian Held}
-\item \code{scholcomm-analytics@sub.uni-goettingen.de}, a function account for \href{https://www.sub.uni-goettingen.de/kontakt/abteilungen-a-z/abteilungs-und-gruppendetails/abteilunggruppe/wissen-als-gemeingut/}{WAG} data products.
 }
 }
 
